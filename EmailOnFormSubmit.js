@@ -13,7 +13,7 @@ function emailOnFormSubmit(e) {
 	var emailBody = "This is an email test for the user " + name + 
 					"\nFrom " + city + 
 					"\nWith email " + mail + 
-					"\nRegister on " + timestamp
+					"\nRegister on " + timestamp +
 					"\n\nThank you for register!"; 
 	
 	// html is for those devices that can render HTML
