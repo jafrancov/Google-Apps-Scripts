@@ -10,10 +10,10 @@ function emailOnFormSubmit(e) {
 	var subject = "Test Confirmation for " + name;
 
 	// emailBody is for those devices that can't render HTML, is plain text
-	var emailBody = "This is an email test for the user " + Name + 
-					"\nFrom " + City + 
-					"\nWith email " + Mail + 
-					"\nRegister on " + Timestamp
+	var emailBody = "This is an email test for the user " + name + 
+					"\nFrom " + city + 
+					"\nWith email " + mail + 
+					"\nRegister on " + timestamp
 					"\n\nThank you for register!"; 
 	
 	// html is for those devices that can render HTML
@@ -30,5 +30,5 @@ function emailOnFormSubmit(e) {
 
 	// This instruction sends the email
 	MailApp.sendEmail(mail, subject, emailBody, advancedOpts);
-	
+
 }
