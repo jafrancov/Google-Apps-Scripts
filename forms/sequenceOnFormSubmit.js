@@ -29,7 +29,7 @@ function addSequenceNumber() {
 	// Obtain the last row with data
 	var row =  SpreadsheetApp.getActiveSheet().getLastRow();
 	// Sequence number (record) minus 1, this is due to the headers
-	var record = row - 1
+	var record = row - 1;
 	// Set (or write) the sequence number in the cell specified, change number 4 for the rigth column
 	sheet.getRange(row,4).setValue(record);
 	// Return the sequence number
