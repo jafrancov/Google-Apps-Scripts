@@ -1,4 +1,4 @@
 Google-Apps-Scripts
 ===================
 
-Examples and experiments with Google Apps Scripts
+Ejemplos de uso de Google Apps Scripts
